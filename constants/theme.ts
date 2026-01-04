@@ -5,25 +5,62 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+// Light and soft pastel theme colors
+const tintColorLight = '#A8D8EA'; // Soft Sky Blue
+const tintColorDark = '#B5E5CF'; // Soft Mint
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
+    text: '#2D3748',
+    background: '#F7FAFC',
     tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
+    icon: '#718096',
+    tabIconDefault: '#A0AEC0',
     tabIconSelected: tintColorLight,
+    // Soft pastel theme colors
+    primary: '#A8D8EA', // Soft Sky Blue
+    secondary: '#B5E5CF', // Soft Mint
+    success: '#C8E6C9', // Soft Green
+    warning: '#FFF9C4', // Soft Yellow
+    error: '#FFCCBC', // Soft Peach
+    accent: '#E1BEE7', // Soft Lavender
+    card: '#FFFFFF',
+    border: '#E2E8F0',
+    // Additional soft pastel colors for badges
+    badge1: '#A8D8EA', // Soft Sky Blue
+    badge2: '#B5E5CF', // Soft Mint
+    badge3: '#C8E6C9', // Soft Green
+    badge4: '#FFF9C4', // Soft Yellow
+    badge5: '#E1BEE7', // Soft Lavender
+    badge6: '#FFCCBC', // Soft Peach
+    badge7: '#BBDEFB', // Soft Blue
+    badge8: '#F8BBD0', // Soft Pink
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
+    text: '#E2E8F0',
+    background: '#1A202C',
     tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
+    icon: '#A0AEC0',
+    tabIconDefault: '#718096',
     tabIconSelected: tintColorDark,
+    // Soft pastel theme colors (slightly brighter for dark mode)
+    primary: '#B5E5CF', // Soft Mint
+    secondary: '#A8D8EA', // Soft Sky Blue
+    success: '#C8E6C9', // Soft Green
+    warning: '#FFF9C4', // Soft Yellow
+    error: '#FFCCBC', // Soft Peach
+    accent: '#E1BEE7', // Soft Lavender
+    card: '#2D3748',
+    border: '#4A5568',
+    // Additional soft pastel colors for badges
+    badge1: '#B5E5CF', // Soft Mint
+    badge2: '#A8D8EA', // Soft Sky Blue
+    badge3: '#C8E6C9', // Soft Green
+    badge4: '#FFF9C4', // Soft Yellow
+    badge5: '#E1BEE7', // Soft Lavender
+    badge6: '#FFCCBC', // Soft Peach
+    badge7: '#BBDEFB', // Soft Blue
+    badge8: '#F8BBD0', // Soft Pink
   },
 };
 
