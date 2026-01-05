@@ -3,8 +3,8 @@
 // API Configuration - same as main.py
 export const API_CONFIG = {
   API_URL: 'https://openrouter.ai/api/v1/chat/completions',
-  MODEL: 'meta-llama/llama-4-maverick',
-  API_KEY: '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',
+  MODEL: 'anthropic/claude-sonnet-4',
+  API_KEY: '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',
   MAX_TOKENS: 300,
   SYSTEM_PROMPT: `You are a professional quiz master AI.
 Rules:
